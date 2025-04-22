@@ -1,4 +1,4 @@
-# Holt-Winters Forecasting in MBASIC-80
+# Holt-Winters Forecasting in Microsoft BASIC-80
 
 A comprehensive **Holt-Winters exponential smoothing** forecasting engine written in structured **BASIC**, originally designed for **MBASIC-80** on CP/M or DOS systems.
 
