@@ -2,6 +2,8 @@
 
 A comprehensive **Holt-Winters exponential smoothing** forecasting engine written in structured **BASIC**, originally designed for **MBASIC-80** on CP/M or DOS systems.
 
+Also provided are two MBASIC-80 interpreters: MBASIC.COM (CP/M) and MSBASIC.COM (DOS).
+
 ## Features
 
 - Supports both **additive** and **multiplicative** seasonal models  
