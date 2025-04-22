@@ -1,2 +1,40 @@
-# holtwinters_BASIC80
-A comprehensive Holt-Winters exponential smoothing forecasting engine written entirely in structured BASIC. This program supports both additive and multiplicative seasonal models, automatic seasonality detection using the autocorrelation function (ACF), brute-force optimization of smoothing parameters (alpha, beta, gamma), and detailed statistical diagnostics. It computes forecasts with prediction intervals, evaluates model accuracy with multiple error metrics (MPE, MAPE, MAE, RMSE), and performs residual analysis using the Durbin-Watson statistic and Ljung-Box Q test.
+# Holt-Winters Forecasting in MBASIC-80
+
+A comprehensive **Holt-Winters exponential smoothing** forecasting engine written in structured **BASIC**, originally designed for **MBASIC-80** on CP/M or DOS systems.
+
+## Features
+
+- Supports both **additive** and **multiplicative** seasonal models  
+- Automatically detects **seasonal period (P)** using the **autocorrelation function (ACF)**
+- Performs **exhaustive grid search** to optimize smoothing parameters:  
+  - `α` (Alpha) – Level  
+  - `β` (Beta) – Trend  
+  - `γ` (Gamma) – Seasonality
+- Computes forecasts with **95% prediction intervals**
+- Calculates standard error metrics:  
+  - **MPE** (Mean Percentage Error)  
+  - **MAPE** (Mean Absolute Percentage Error)  
+  - **MAE**, **RMSE**, and more
+- Includes diagnostic tests for residuals:  
+  - **Durbin-Watson statistic**  
+  - **Ljung-Box Q test**
+- Includes a **debug mode** with built-in sample data
+- User interface supports **interactive input**, **input validation**, and **info/help menus**
+
+## Intended Use
+
+Originally developed as a **statistical modeling tool for time series forecasting** on vintage systems, this program is ideal for:
+- Educational use (learning exponential smoothing and classical forecasting)
+- Historical preservation of computational methods
+- Demonstrating robust forecasting in constrained environments
+
+## Platform Details
+
+- Written for **MBASIC-80**
+- Compatible with other BASIC interpreters with modification
+  
+## Author
+
+**Christopher D. Van Der Kaay, Ph.D.**
+
+Developed in 2024 as a structured, retro-style implementation of classical time series forecasting.
